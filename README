@@ -1,0 +1,6 @@
+kubectl create namespace jenkins
+
+kubectl create -f jenkins.yaml --namespace jenkins
+
+kubectl logs jenkins-6fb994cfc5-twnvn -n jenkins
+
